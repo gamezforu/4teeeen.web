@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Funny Site</title>
+
+<style>
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: #111;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+#header {
+    background-color: red;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#nav {
+    margin: 10px 0;
+}
+
+#nav a {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 3px;
+    display: inline-block;
+}
+
+#nav a:hover {
+    background-color: darkred;
+}
+
+.video {
+    background-color: #222;
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid red;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+MY FUNNY SITE
+</div>
+
+<div id="nav">
+<a href="#">Home</a>
+<a href="#">Videos</a>
+<a href="#">Pictures</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+<div class="video">
+<h2>Featured Video</h2>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="video">
+<h2>Latest Post</h2>
+<p>Welcome to my website! Check out my newest funny video!</p>
+</div>
+
+<div class="footer">
+© 2006 MyFunnySite.com
+</div>
+
+</div>
+
+</body>
+</html>
