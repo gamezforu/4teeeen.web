@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+</head>
+
+<body>
+
+<h1>Watch My Video</h1>
+
+<p>
+Click the link below to watch the video:
+</p>
+
+<a href="https://https://www.youtube.com/watch?v=BDsnOHHwmW8" target="_blank">
+Watch the Video on YouTube
+</a>
+
+</body>
+</html>
